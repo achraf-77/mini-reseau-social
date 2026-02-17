@@ -1,0 +1,20 @@
+{
+  "users": [
+    { "id": 1, "username": "sara", "avatar": "https://ui-avatars.com/api/?name=sara" },
+    { "id": 2, "username": "youssef", "avatar": "https://ui-avatars.com/api/?name=youssef" }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "content": "Mon premier post sur React !",
+      "image": "https://picsum.photos/400/300",
+      "authorId": 1,
+      "hashtags": ["react", "frontend"],
+      "likes": 2,
+      "likedBy": []
+    }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "authorId": 2, "content": "Très intéressant" }
+  ]
+}
