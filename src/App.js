@@ -6,6 +6,9 @@ import Login from "./pages/Login";
 import Home from "./pages/Home";
 import NewPost from "./pages/NewPost";
 import MyPosts from "./pages/MyPosts";
+import PostDetails from "./pages/PostDetails";
+import EditPost from "./pages/EditPost";
+import Profile from "./pages/Profile";
 
 export default function App() {
   return (
@@ -14,30 +17,12 @@ export default function App() {
       <Routes>
         <Route path="/login" element={<Login />} />
 
-        <Route
-          path="/"
-          element={
-            <ProtectedRoute>
-              <Home />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/posts/new"
-          element={
-            <ProtectedRoute>
-              <NewPost />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/my-posts"
-          element={
-            <ProtectedRoute>
-              <MyPosts />
-            </ProtectedRoute>
-          }
-        />
+        <Route path="/" element={<ProtectedRoute><Home /></ProtectedRoute>} />
+        <Route path="/posts/new" element={<ProtectedRoute><NewPost /></ProtectedRoute>} />
+        <Route path="/posts/edit/:id" element={<ProtectedRoute><EditPost /></ProtectedRoute>} />
+        <Route path="/my-posts" element={<ProtectedRoute><MyPosts /></ProtectedRoute>} />
+        <Route path="/post/:id" element={<ProtectedRoute><PostDetails /></ProtectedRoute>} />
+        <Route path="/profile/:id" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
       </Routes>
     </BrowserRouter>
   );

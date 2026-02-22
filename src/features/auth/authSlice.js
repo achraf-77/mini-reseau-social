@@ -21,5 +21,5 @@ const authSlice = createSlice({
   },
 });
 
-export const { setCurrentUser, logout } = authSlice.actions;  // ← مهم هادي
+export const { setCurrentUser, logout } = authSlice.actions;
 export default authSlice.reducer;

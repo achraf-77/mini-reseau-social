@@ -1,20 +1,124 @@
 {
   "users": [
-    { "id": 1, "username": "sara", "avatar": "https://ui-avatars.com/api/?name=sara" },
-    { "id": 2, "username": "youssef", "avatar": "https://ui-avatars.com/api/?name=youssef" }
+    {
+      "id": "1",
+      "username": "sara",
+      "avatar": "https://ui-avatars.com/api/?name=sara"
+    },
+    {
+      "id": "2",
+      "username": "youssef",
+      "avatar": "https://ui-avatars.com/api/?name=youssef"
+    },
+    {
+      "id": "7c34",
+      "username": "Achraf",
+      "avatar": "https://ui-avatars.com/api/?name=Achraf"
+    },
+    {
+      "id": "ad54",
+      "username": "Ali",
+      "avatar": "https://ui-avatars.com/api/?name=Ali"
+    }
   ],
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "content": "Mon premier post sur React !",
       "image": "https://picsum.photos/400/300",
-      "authorId": 1,
-      "hashtags": ["react", "frontend"],
+      "authorId": "1",
+      "hashtags": [
+        "react",
+        "frontend"
+      ],
       "likes": 2,
+      "likedBy": [
+        "1",
+        "7c34"
+      ]
+    },
+    {
+      "id": "4ba3",
+      "content": "gojo",
+      "image": "https://i.pinimg.com/736x/5c/83/62/5c8362a9c0e31d93bd25f3c93c6abb2f.jpg",
+      "hashtags": [],
+      "authorId": "1",
+      "likes": 1,
+      "likedBy": [
+        "ad54"
+      ]
+    },
+    {
+      "id": "1529",
+      "content": "Holiday",
+      "image": "https://4kwallpapers.com/images/wallpapers/christmas-tree-1920x1080-14452.jpg",
+      "hashtags": [
+        "val"
+      ],
+      "authorId": "1",
+      "likes": 1,
+      "likedBy": [
+        "1"
+      ]
+    },
+    {
+      "id": "3b83",
+      "content": "Python forever",
+      "image": "https://th.bing.com/th/id/OIP.bjNgt3B61Mno3AXwMQBdfwHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "hashtags": [
+        "dev"
+      ],
+      "authorId": "7c34",
+      "likes": 0,
+      "likedBy": []
+    },
+    {
+      "id": "0f6c",
+      "content": "Venom",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.WVJdDmPeRQqW0OrcyecX0wHaDl?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "hashtags": [
+        "ff"
+      ],
+      "authorId": "ad54",
+      "likes": 0,
+      "likedBy": []
+    },
+    {
+      "id": "9c2f",
+      "content": "cat coding",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.Yhxshf4m3AOcfOQSPwBXNwHaE8?w=3000&h=2000&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "hashtags": [
+        "cats"
+      ],
+      "authorId": "ad54",
+      "likes": 0,
       "likedBy": []
     }
   ],
   "comments": [
-    { "id": 1, "postId": 1, "authorId": 2, "content": "Très intéressant" }
+    {
+      "id": "1",
+      "postId": "1",
+      "authorId": "2",
+      "content": "Très intéressant 👍"
+    },
+    {
+      "id": "be30",
+      "postId": "4ba3",
+      "authorId": "1",
+      "content": "lol"
+    },
+    {
+      "id": "e21c",
+      "postId": "1",
+      "authorId": "7c34",
+      "content": "looks good "
+    },
+    {
+      "id": "4e00",
+      "postId": "3b83",
+      "authorId": "7c34",
+      "content": "xD"
+    }
   ]
 }
