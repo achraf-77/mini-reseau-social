@@ -10,8 +10,8 @@ Application mini réseau social permettant :
 - Bonus : tri par popularité (likes) + protection des routes
 
 ## Membres de l’équipe
-- Nom Prénom 1 (GitHub: @achraf-77)
-- Nom Prénom 2 (GitHub: @alibenderkaoui)
+- FENOUN ACHRAF 1 (GitHub: @achraf-77)
+- BENDERKAOUI ALI 2 (GitHub: @alibenderkaoui)
 
 ## Technologies
 - React (Create React App)
@@ -23,3 +23,6 @@ Application mini réseau social permettant :
 ```bash
 npm install
 npm run server
+
+## ALI BENDERKAOUI
+J’ai effectué un merge de ma branche vers main, mais sur GitHub je ne vois pas la mise à jour (le merge/les commits n’apparaissent pas comme prévu)
